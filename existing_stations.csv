@@ -1,0 +1,109 @@
+,Station Name,Street Address,City,State,ZIP,Latitude,Longitude,EV Network,EV Connector Types
+0,LADWP - Truesdale Center,11797 Truesdale St,Sun Valley,CA,91352,34.2483191527193,-118.3879713743439,SHELL_RECHARGE,"CHADEMO,J1772,J1772COMBO"
+1,Los Angeles Convention Center,1201 S Figueroa St,Los Angeles,CA,90015,34.040539,-118.271387,Non-Networked,J1772
+2,LADWP - John Ferraro Building,111 N Hope St,Los Angeles,CA,90012,34.059133,-118.248589,Non-Networked,"CHADEMO,J1772,J1772COMBO"
+3,LADWP - Haynes Power Plant,6801 E 2nd St,Long Beach,CA,90803,33.759802,-118.096665,Non-Networked,"CHADEMO,J1772,J1772COMBO"
+4,LADWP - Harbor Generating Station,161 N Island Ave,Wilmington,CA,90744,33.770508,-118.265628,Non-Networked,J1772
+5,LADWP - Sylmar West,13201 Sepulveda Blvd,Sylmar,CA,91342,34.30309,-118.480505,Non-Networked,J1772
+6,LADWP - EV Service Center,1630 N Main St,Los Angeles,CA,90012,34.066801,-118.227605,Non-Networked,"CHADEMO,J1772"
+7,LADWP - Fairfax Center,2311 S Fairfax Ave,Los Angeles,CA,90016,34.036777,-118.368841,Non-Networked,J1772
+8,LADWP - Palmetto Center,1212 Palmetto St,Los Angeles,CA,90013,34.039736,-118.236065,Non-Networked,J1772
+9,Scripps Green Hospital,10666 N Torrey Pines Rd,La Jolla,CA,92037,32.89947,-117.243,Non-Networked,J1772
+10,Galpin Motors,15421 Roscoe Blvd,Sepulveda,CA,91343,34.221665,-118.468371,Non-Networked,J1772
+11,Galleria at Tyler,1299 Galleria at Tyler,Riverside,CA,92503,33.909914,-117.459053,Non-Networked,J1772
+12,City of Pasadena - Holly Street Garage,150 E Holly St,Pasadena,CA,91103,34.14762,-118.147111,Non-Networked,J1772
+13,City of Pasadena - De Lacey Garage,45 De Lacey Ave,Pasadena,CA,91105,34.145138,-118.152655,Non-Networked,J1772
+14,City of Pasadena - Schoolhouse Garage,33 E Green St,Pasadena,CA,91105,34.145119,-118.150133,Non-Networked,J1772
+15,Bristol Farms,606 Fair Oaks Ave,South Pasadena,CA,91030,34.118433,-118.149597,Non-Networked,
+16,Hyatt Regency Long Beach,200 S Pine Ave,Long Beach,CA,90802,33.7637,-118.192,Non-Networked,J1772
+17,Los Angeles International Airport (LAX) - Lot 6,1 World Way,Los Angeles,CA,90045,33.94325,-118.403342,Non-Networked,J1772
+18,Northridge Fashion Center East Garage Lower Level,9301 Tampa Ave,Northridge,CA,91324,34.238716,-118.554686,SHELL_RECHARGE,J1772
+19,Ontario Airport Hotel and Conference Center,700 N Haven Ave,Ontario,CA,91764,34.07122,-117.575,Non-Networked,J1772
+20,Courtyard Marriott - Oxnard Ventura,600 E Esplanade Dr,Oxnard,CA,93030,34.228315,-119.170865,Non-Networked,J1772
+21,Hilton - Palm Springs,400 E Tahquitz Canyon Way,Palm Springs,CA,92262,33.824004,-116.543589,Non-Networked,J1772
+22,Inland Empire Foods,5425 Wilson St,Riverside,CA,92509,34.0189,-117.38,Non-Networked,J1772
+23,Sacramento International Airport - Daily A Lot,Lindbergh Dr,Sacramento,CA,95837,38.69005,-121.58889,Non-Networked,J1772
+24,City of Santa Monica - Airport,3223 Donald Douglas Loop,Santa Monica,CA,90405,34.017081,-118.44704,Non-Networked,J1772
+25,City of Santa Monica - Pier,200 Santa Monica Pier,Santa Monica,CA,90405,34.010021,-118.49583,Non-Networked,J1772
+26,Westfield Parking Garage 1st Floor,14006 Riverside Dr,Sherman Oaks,CA,91423,34.156407,-118.438965,SHELL_RECHARGE,J1772
+27,Universal City Hilton,555 Universal Hollywood Dr,Universal City,CA,91608,34.13722,-118.35835,Non-Networked,"J1772,NEMA520"
+28,Office Max - Home Depot,7075 Firestone Blvd,Downey,CA,90241,33.94756,-118.153806,Non-Networked,J1772
+29,Hyatt at Fisherman's Wharf,555 N Point St,San Francisco,CA,94133,37.80619,-122.4152,Non-Networked,J1772
+30,Arden Fair Mall,1689 Arden Way,Sacramento,CA,95815,38.599693,-121.427045,Non-Networked,J1772
+31,Japan Center Garage,1610 Geary Blvd,San Francisco,CA,94115,37.784912,-122.430237,Non-Networked,
+32,Palace Hotel,2 New Montgomery St,San Francisco,CA,94105,37.78881,-122.401,Non-Networked,J1772
+33,Mark Hopkins InterContinental Hotel,999 California St,San Francisco,CA,94108,37.791791,-122.411265,Non-Networked,J1772
+34,California State University - Northridge,18111 Nordhoff St,Northridge,CA,91330,34.248959,-118.523887,Non-Networked,J1772
+35,California State University - Northridge,18111 Nordhoff St,Northridge,CA,91330,34.241687,-118.528543,Non-Networked,J1772
+36,California State University - Northridge,18111 Nordhoff St,Northridge,CA,91330,34.236853,-118.532588,Non-Networked,J1772
+37,Los Angeles Harbor Department Headquarters,425 S Palos Verdes St,San Pedro,CA,90731,33.740758,-118.28192,Non-Networked,J1772
+38,Getty Center,1200 Getty Center Dr,Los Angeles,CA,90049,34.077588,-118.474585,Non-Networked,"J1772,NEMA520"
+39,LA County DPR Arboretum,301 N Baldwin Ave,Arcadia,CA,91007,34.145528,-118.050548,POWERFLEX,J1772
+40,City of Glendora - City Hall,114 S Vista Bonita Ave,Glendora,CA,91741,34.13556,-117.864,Non-Networked,J1772
+41,DoubleTree Hotel - Los Angeles - Westside,6161 Centinela Ave,Culver City,CA,90230,33.9826,-118.3966,Non-Networked,J1772
+42,Helms Bakery Building,8800 Venice Blvd,Los Angeles,CA,90034,34.029971,-118.385231,Non-Networked,J1772
+43,Westfield MainPlace Mall,2800 N Main St,Santa Ana,CA,92705,33.777054,-117.870566,Non-Networked,J1772
+44,California State University - Channel Islands,1 University Dr,Camarillo,CA,93012,34.16657601660278,-119.0458546627045,Non-Networked,J1772
+45,Brea Downtown Parking,101 S Brea Blvd,Brea,CA,92821,33.919899,-117.898618,Non-Networked,J1772
+46,Home Depot,2745 Teller Rd,Newbury Park,CA,91320,34.192178,-118.934793,Non-Networked,"J1772,NEMA515"
+47,Lake Casitas Municipal Water District - Recreational Area,Casitas Pass Rd & Baldwin Rd,Oak View,CA,93022,34.418322,-119.3368,Non-Networked,J1772
+48,San Dimas Park & Ride,205 S San Dimas Ave,San Dimas,CA,91773,34.105275,-117.809208,Non-Networked,J1772
+49,City of Pasadena - El Molino Lot,100 N El Molino Ave,Pasadena,CA,91101,34.147709,-118.136621,Non-Networked,J1772
+50,Ventura County Government Center,800 S Victoria Ave,Ventura,CA,93009,34.267352,-119.2124,Non-Networked,J1772
+51,Ventura County Air Pollution Control District,669 County Square Dr,Ventura,CA,93003,34.268756,-119.2154,Non-Networked,J1772
+52,Pacific View Mall,3295 E Main St,Ventura,CA,93003,34.268,-119.2492,Non-Networked,J1772
+53,LADWP - Scattergood Generating Facility,12700 Vista del Mar,Playa del Rey,CA,90293,33.917593,-118.425334,Non-Networked,J1772
+54,LA County DPW Baldwin Park,14747 E Ramona Blvd,Baldwin Park,CA,91706,34.089085,-117.95463,Non-Networked,J1772
+55,LA County DPW Imperial,5525 E Imperial Hwy,South Gate,CA,90280,33.930663,-118.175758,Non-Networked,J1772
+56,University of California - Davis Extension - Lot 80,1441 Research Park Dr,Davis,CA,95616,38.539336,-121.732405,Non-Networked,"J1772,NEMA520"
+57,San Luis Obispo County Air Pollution Control District,3433 Roberto Ct,San Luis Obispo,CA,93401,35.25939,-120.64492,Non-Networked,"J1772,NEMA520"
+58,LADWP - Wilmington District Yard,315 N Island Ave,Wilmington,CA,90744,33.773005,-118.265821,Non-Networked,J1772
+59,Fair Oaks - Orangevale - Community Library,11601 Fair Oaks Blvd,Fair Oaks,CA,95628,38.66292,-121.2634,Non-Networked,J1772
+60,Sutter Galleria Mall - University of California - Davis Extension,2901 K St,Sacramento,CA,95816,38.57277,-121.467902,Non-Networked,"J1772,NEMA520"
+61,North Highlands Library,4235 Antelope Rd,Antelope,CA,95843,38.7042,-121.365,Non-Networked,J1772
+62,Gateway Oaks Metro Center,2710 Gateway Oaks Dr,Sacramento,CA,95833,38.615468,-121.517263,Non-Networked,J1772
+63,University of California - Davis - Medical Center,4860 Y St,Sacramento,CA,95817,38.552483,-121.4487,Non-Networked,J1772
+64,City of Sacramento - Belle Cooledge Library,5600 S Land Park Dr,Sacramento,CA,95822,38.524403,-121.5112,Non-Networked,J1772
+65,Mosquito Road Park and Ride,Mosquito Rd & Clay St,Placerville,CA,95667,38.73323,-120.78962,Non-Networked,J1772
+66,City of Vacaville - Cultural Center,1000 Ulatis Dr,Vacaville,CA,95687,38.356027,-121.9628,Non-Networked,J1772
+67,Stars Recreation Center,155 Browns Valley Pkwy,Vacaville,CA,95688,38.36557,-121.967,Non-Networked,J1772
+68,City of Vacaville - Regional Transport Center,190 Hickory Ln,Vacaville,CA,95688,38.35172,-121.987,Non-Networked,J1772
+69,Office of Housing & Redevelopment,40 Eldridge Ave,Vacaville,CA,95688,38.356907,-122.001886,Non-Networked,J1772
+70,KUIC Radio - Parking Lot,500 Catherine St,Vacaville,CA,95688,38.355867,-121.9862,Non-Networked,J1772
+71,City of Vacaville - City Hall,650 Merchant St,Vacaville,CA,95688,38.351758,-121.994475,Non-Networked,J1772
+72,Citrus Heights City Hall,6360 Fountain Square Dr,Citrus Heights,CA,95621,38.682605,-121.297614,Non-Networked,J1772
+73,Pitt School Plaza,1440 Ary Ln,Dixon,CA,95620,38.457369,-121.842567,Non-Networked,NEMA520
+74,El Dorado County Government Center,2850 Fairlane Ct,Placerville,CA,95667,38.72799,-120.828,Non-Networked,J1772
+75,El Dorado Transit Park & Ride,4640 Post St,El Dorado Hills,CA,95762,38.6476,-121.067,Non-Networked,J1772
+76,Elk Grove Kia,8480 Laguna Grove Dr,Elk Grove,CA,95758,38.40553,-121.391,Non-Networked,J1772
+77,CVS Pharmacy,8455 Auburn-Folsom Rd,Granite Bay,CA,95746,38.74453,-121.17,Non-Networked,J1772
+78,Carmichael Library,5605 Marconi Ave,Carmichael,CA,95608,38.618066,-121.334337,Non-Networked,J1772
+80,Rio Vista City Hall,1 Main St,Rio Vista,CA,94571,38.15485,-121.69,Non-Networked,J1772
+81,Fairfield City Hall,1000 Webster St,Fairfield,CA,94533,38.25281,-122.044229,Non-Networked,J1772
+82,Solano Community College,4000 Suisun Valley Rd,Fairfield,CA,94534,38.23723,-122.123,Non-Networked,J1772
+83,Vallejo Ferry Terminal,495 Mare Island Way,Vallejo,CA,94590,38.105062,-122.265895,Non-Networked,
+84,Los Angeles International Airport (LAX) - Lot 1,1 World Way,Los Angeles,CA,90045,33.944761,-118.399767,Non-Networked,J1772
+85,City of Vacaville - Police Headquarters,660 Merchant St,Vacaville,CA,95688,38.35109,-121.993654,Non-Networked,J1772
+87,LADWP - Boylston,1141 W 2nd St,Los Angeles,CA,90026,34.059047,-118.256812,Non-Networked,J1772
+88,LADWP - Central District,1350 S Wall St,Los Angeles,CA,90015,34.033898,-118.256673,Non-Networked,J1772
+89,LADWP - Lincoln Heights District,3101 Artesian St,Los Angeles,CA,90031,34.081998,-118.21713,Non-Networked,J1772
+90,LADWP - Receiving Station C,900 E Lomita Blvd,Wilmington,CA,90744,33.799476,-118.257977,Non-Networked,J1772
+91,LADWP - Valley Center Admin Lot,14401 Saticoy St,Van Nuys,CA,91405,34.208708,-118.444358,Non-Networked,"CHADEMO,J1772,J1772COMBO"
+92,LADWP - Valley Generating Station,11801 Sheldon St,Sun Valley,CA,91352,34.241928,-118.390147,Non-Networked,J1772
+95,City of Ukiah - Public Parking Lot,N Oak St & W Standley St,Ukiah,CA,95482,39.15,-123.2091,Non-Networked,J1772
+96,Nut Tree Village,1651 E Monte Vista Ave,Vacaville,CA,95688,38.368755,-121.961192,Non-Networked,"J1772,NEMA515"
+97,4th and G Plaza Public Parking Garage,817 4th St,Davis,CA,95616,38.54643,-121.7388,Non-Networked,J1772
+98,Davis Amtrak Station,840 2nd St,Davis,CA,95616,38.5443,-121.738,Non-Networked,J1772
+99,University of California - Davis - Quad Parking Structure,6 Howard Way,Davis,CA,95616,38.544538,-121.749713,Non-Networked,"J1772,NEMA520"
+100,University Covenant Church,315 Mace Blvd,Davis,CA,95618,38.55755,-121.6947,Non-Networked,J1772
+101,Wildhorse Golf Club,2323 Rockwell Dr,Davis,CA,95618,38.569412,-121.721373,Non-Networked,J1772
+102,Lakewood Center Mall,4500 Silva St,Lakewood,CA,90712,33.84788,-118.13889,Non-Networked,J1772
+103,Golden Gate Ferry Terminal,101 E Sir Francis Drake Blvd,Larkspur,CA,94939,37.94495,-122.5096,Non-Networked,J1772
+104,Oakland International Airport - Daily Lot,1 Airport Dr,Oakland,CA,94621,37.7136,-122.2087,Non-Networked,J1772
+110,Fairfield Transportation Center,2000 Cadenasso Dr,Fairfield,CA,94533,38.2482,-122.0678,Non-Networked,J1772
+116,Home Depot,1551 Froom Ranch Way,San Luis Obispo,CA,93405,35.249929,-120.689683,Non-Networked,J1772
+117,San Luis Obispo Promenade - Bed Bath & Beyond,319 Madonna Rd,San Luis Obispo,CA,93401,35.25982,-120.676,Non-Networked,J1772
+167,Toyota of Santa Monica,801 Santa Monica Blvd,Santa Monica,CA,90401,34.019875,-118.49151,Non-Networked,J1772
+168,Beach & Hyde Garage,655 Beach St,San Francisco,CA,94109,37.806798,-122.419488,Non-Networked,J1772
+169,City of Santa Monica - Civic Parking Garage,333 Civic Center Dr,Santa Monica,CA,90401,34.010528,-118.4898,Non-Networked,"CHADEMO,J1772"
+190,Super 8 - Ukiah,693 S Orchard Ave,Ukiah,CA,95482,39.1458,-123.198497,Non-Networked,J1772
