@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+deap
+pyswarm
+geopy
+folium
