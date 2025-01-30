@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+deap
+pyswarm
+geopy
+folium
+geopandas 
+shapely
