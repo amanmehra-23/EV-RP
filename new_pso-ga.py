@@ -107,11 +107,13 @@ def fitness_function_pso(new_station_locations, california_polygon, land_polygon
     """
     Return a score to maximize average distance from existing stations while
     obeying constraints (inside CA, on land, > threshold_distance).
-    Lower penalty = better, so we invert logic with large penalties if constraints fail.
+    We use very large penalties so out-of-bounds solutions are heavily penalized.
     """
-    penalty_outside = 1e8
-    penalty_water = 1e7
-    penalty_threshold = 1e6
+    # Increased penalties to strongly discourage out-of-bounds or near-existing solutions
+    penalty_outside = 1e15
+    penalty_water = 1e14
+    penalty_threshold = 1e13
+
     total_distance = 0
     num_new_stations = len(new_station_locations) // 2
 
@@ -137,9 +139,8 @@ def fitness_function_pso(new_station_locations, california_polygon, land_polygon
 
         total_distance += min_dist
 
-    # Maximize average distance => we can return negative distance to let PSO "minimize"
+    # Maximize average distance => negative sign to let PSO "minimize"
     average_distance = total_distance / num_new_stations
-    # Because pso expects us to MINIMIZE, we invert the sign or add negative:
     return -average_distance
 
 def run_pso_optimization(california_polygon, land_polygon):
@@ -153,8 +154,8 @@ def run_pso_optimization(california_polygon, land_polygon):
             fitness_wrapper,
             lb=lb,
             ub=ub,
-            swarmsize=10,
-            maxiter=50,
+            swarmsize=20,   # you could increase swarm size further if desired
+            maxiter=50,    # likewise, more iterations may help find a feasible solution
             debug=False
         )
         end = time.time()
@@ -200,9 +201,11 @@ toolbox.register("individual", init_individual, california_polygon=california_po
 toolbox.register("population", tools.initRepeat, list, toolbox.individual)
 
 def fitness_function_ga(individual, california_polygon, land_polygon):
-    penalty_outside = 1e8
-    penalty_water = 1e7
-    penalty_threshold = 1e6
+    # Larger penalties as well to match the PSO approach
+    penalty_outside = 1e15
+    penalty_water = 1e14
+    penalty_threshold = 1e13
+
     total_distance = 0
     num_new_stations = len(individual) // 2
 
@@ -226,9 +229,7 @@ def fitness_function_ga(individual, california_polygon, land_polygon):
         total_distance += min_dist
 
     average_distance = total_distance / num_new_stations
-    # GA is minimizing => return negative if we want to maximize
-    # But we've used a standard minimizing approach in DEAP
-    # So we can directly use negative to reflect maximizing
+    # GA is minimizing => negative if we want to maximize
     return (-average_distance,)
 
 toolbox.register("evaluate", fitness_function_ga, california_polygon=california_polygon, land_polygon=land_polygon)
@@ -354,8 +355,8 @@ def run_pso_then_ga(california_polygon, land_polygon):
 def main():
     results = []
 
-    # Adjust how many runs you want:
-    for run_idx in range(1, 2):
+    # CHANGED HERE: 10 runs instead of 1
+    for run_idx in range(1, 11):
         try:
             (
                 pso_coords,
@@ -369,7 +370,7 @@ def main():
 
             # Combine both PSO and GA coordinates into a single string for the CSV
             combined_coords = f"PSO: {pso_coords}; GA: {ga_coords}"
-
+            print(f"Run Number: {run_idx}")
             # Store only the columns you want in the final CSV
             results.append({
                 'runs': run_idx,
@@ -486,6 +487,7 @@ def main():
             m.get_root().add_child(legend)
 
             # Save the map for this run
+            # (If you prefer, you can give each run its own output name, e.g. f"combined_pso_ga_map_run_{run_idx}.html")
             m.save("combined_pso_ga_map.html")
 
         except ValueError as ve:
